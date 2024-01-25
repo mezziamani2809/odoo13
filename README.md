@@ -124,7 +124,79 @@ server {
 * postgres:14
 
 # Odoo 15 screenshots
+[1/25/23 10:46 AM] Amani Mezzi Odoo Expert (Guest)
+cd /opt
 
+ls
+
+    8  git clone https://github.com/pro-777/docker_installs.git
+
+    9  
+
+   10  git clone https://github.com/pro-777/docker_installs.git
+
+   11  ls
+
+   12  cd /opt/docker_installs
+
+   13  ls
+
+   14  chmod +x install_docker_nproxyman.sh
+
+   15  ./install_docker_nproxyman.sh
+
+   16  ls
+
+   17  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+   18  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+   19  apt-cache policy docker-ce
+
+   20  sudo systemctl status docker
+
+   21  docker ps
+
+   22  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+   23  sudo chmod +x /usr/local/bin/docker-compose
+
+   24  exit
+
+   25  cd /opt/docker_installs
+
+   26  ./install_docker_nproxyman.sh
+
+   27  docker exec -it nginxproxymanager_core sh
+
+   28  docker ps
+
+   29  docker restart portainer
+
+   30  chmod +x install_docker_nproxyman.sh
+
+   31  ./install_docker_nproxyman.sh
+
+   32  docker network
+
+   33  docker network ls
+
+   34  docker network inspect bridge
+
+   35  docker network create my-main-net
+
+   36  ./install_docker_nproxyman.sh
+
+   37  cd ..
+
+   38  curl -s https://raw.githubusercontent.com/mezziamani2809/test/main/run.sh | sudo bash -s odoo-one 10015 20015
+
+   39  history
+
+[1/25/23 10:46 AM] Amani Mezzi Odoo Expert (Guest)
+sudo apt install git
+[1/25/23 10:47 AM] Amani Mezzi Odoo Expert (Guest)
+38.242.148.117
 <img src="screenshots/2022-10-17_22h16_21.png" width="50%">
 
 <img src="screenshots/2022-10-17_22h16_30.png" width="100%">
